@@ -9,7 +9,7 @@
 :stars: **Nível 1**
 - Estudos aplicados com [ Javascript, TypeScript ]
 
-##Como executar
+## Como executar
 
 :wrench: **Gerenciadores necessários**
 * Node Version Manager (NVM) 
