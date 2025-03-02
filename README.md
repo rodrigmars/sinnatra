@@ -15,7 +15,7 @@
 * Node Version Manager (NVM) 
 * Performant Node Package Manager (PNPM)
 
-Carregando versão específica para Node
+Configurando Node
 ```powershell
 nvm use
 ```
