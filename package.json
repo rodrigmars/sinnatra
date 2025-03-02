@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tsx watch src/server"
+    "dev": "tsx src/calculadora/",
+    "dev:watch": "tsx watch src/calculadora"
   },
   "keywords": [],
   "author": "",

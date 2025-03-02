@@ -5,3 +5,12 @@
 **:stars: Nível 1**
 - Estudos aplicados com [ Javascript, TypeScript ]
 
+Instalando dependências
+```powershell
+pnpm init
+```
+Sequência para execução
+```powershell
+pnpm tsx .\src\calculadora\demo01.ts
+```
+
