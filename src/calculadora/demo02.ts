@@ -1,11 +1,6 @@
-interface Operacao {
-    somar: (a: number, b: number) => number,
-    subtrair: (a: number, b: number) => number,
-    multiplicar: (a: number, b: number) => number,
-    dividir: (a: number, b: number) => number,
-}
+import { IOperacao } from './interfaces'
 
-function calculadora(): Operacao {
+function calculadora(): IOperacao {
 
     function somar(a: number, b: number): number {
         return a + b
@@ -33,7 +28,7 @@ function calculadora(): Operacao {
 
 (function (fnCalc: CallableFunction) {
 
-    const calc: Operacao = fnCalc()
+    const calc: IOperacao = fnCalc()
 
     console.log(`\n[ Operações básicas ]\n`)
 
